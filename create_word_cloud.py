@@ -1,17 +1,13 @@
 import jieba, codecs, sys, pandas
 import numpy as np
-import matplotlib.pyplot as plt 
 from wordcloud import WordCloud
 from scipy.misc import imread
-import matplotlib.pyplot as plt
 from wordcloud import WordCloud, ImageColorGenerator
-from scipy.misc import imread
 from os import listdir
 from os.path import isfile, join
 
 stopwords_filename = 'data/stopwords.txt'
 font_filename = 'fonts/STFangSong.ttf'
-
 template_dir = 'data/templates/'
 
 def main(input_filename):
@@ -56,7 +52,6 @@ def main(input_filename):
 
             print 'Saving', output_filename
             wordcloud.to_file(output_filename)
-
 
 if __name__ == '__main__':
     if len(sys.argv) == 2:
