@@ -26,11 +26,17 @@ First, the input text is tokenized into different words. Second, stopwods will b
 ```
 
 ## Usage
-The input file can be specified in the command line. 
 
+Install the required packages through *pip*
+```
+pip install -r requirements.txt
+```
+
+The input file can be specified in the command line as follows.
 ```
 python create_word_cloud.py example.txt
 ```
+
 The default output will be
 ```
 love_example.png
