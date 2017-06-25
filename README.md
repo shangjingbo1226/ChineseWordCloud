@@ -14,6 +14,8 @@ First, the input text is tokenized into different words. Second, stopwods will b
     |-templates
       |-love.png
       |-color_love.png
+  |-fonts
+    |-STFangSong.ttf
 ```
 
 ## Usage
@@ -27,6 +29,16 @@ The default output will be
 love_example.png
 color_love_example.png
 ```
+
+## Advanced Usages
+
+* More Backgraound Templates
+
+Please put your new pictures under *./data/templates/*. Both png and jpeg files are accepted.
+
+* Different Fonts
+
+Please modify the *font_filename* in the python script.
 
 ## Notes
 This is a part of 2017 birthday gifts to my wife :).
