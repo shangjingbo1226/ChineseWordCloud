@@ -1,5 +1,12 @@
 # ChineseWordCloud
 
+## Example Results
+
+If we use some transcripts of movies (i.e., example.txt), we can get the following word clouds.
+
+![alt text](https://github.com/shangjingbo1226/ChineseWordCloud/blob/master/color_love_example.png)
+![alt text](https://github.com/shangjingbo1226/ChineseWordCloud/blob/master/love_example.png)
+
 ## Ideas
 It creates the word cloud for Chinese text corpus. The layout and color of the word cloud is fit to the background templates (accept .png and .jpg files).
 
