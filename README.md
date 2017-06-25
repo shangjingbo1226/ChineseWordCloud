@@ -39,11 +39,11 @@ color_love_example.png
 
 ## Advanced Usages
 
-* More Backgraound Templates
+#### More Backgraound Templates
 
 Please put your new pictures under *./data/templates/*. Both png and jpeg files are accepted.
 
-* Different Fonts
+#### Different Fonts
 
 Please modify the *font_filename* in the python script.
 
