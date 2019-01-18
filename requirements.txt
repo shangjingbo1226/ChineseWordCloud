@@ -3,3 +3,4 @@ pandas
 wordcloud
 numpy
 scipy
+matplotlib
